@@ -1,5 +1,17 @@
 # Weekly WooCommerce Finance KPI Automation with HTTP APIs & Slack
 
+## Prerequisites
+
+Before using this workflow, ensure you have:
+
+* An [n8n account](https://n8n.partnerlinks.io/om1efg2qgvwi)
+* A workflow automation platform (n8n or compatible)
+* A WooCommerce store with REST API access enabled
+* WooCommerce **Consumer Key and Consumer Secret**
+* Access to a Slack workspace
+* Permission to configure API credentials and Slack integrations
+
+
 This workflow automatically gathers **weekly WooCommerce order and refund data**, calculates essential **financial KPIs**, detects potential **refund-related risks** and sends a **clear weekly finance summary to Slack**. Once configured, it runs on a schedule and delivers leadership-ready insights without any manual reporting.
 
 ### Quick Implementation Steps
